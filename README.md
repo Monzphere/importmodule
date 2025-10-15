@@ -30,7 +30,7 @@ A secure web-based interface for importing Zabbix modules packaged as `.tar.gz` 
 
 1. Download the latest release:
 ```bash
-wget https://github.com/yourusername/zabbix-module-importer/releases/latest/download/module-importer.tar.gz
+wget https://github.com/Monzphere/importmodule/releases/latest/download/module-importer.tar.gz
 ```
 
 2. Extract to Zabbix modules directory:
