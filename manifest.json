@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2.0,
+    "id": "module-importer",
+    "name": "Module Importer",
+    "author": "MonZphere",
+    "version": "1.0.0",
+    "namespace": "ModuleImporter",
+    "description": "Secure module importer for tar.gz packages - Super Admin only",
+    "actions": {
+        "module.import.view": {
+            "class": "CControllerModuleImport",
+            "view": "module.import.view"
+        },
+        "module.import.upload": {
+            "class": "CControllerModuleImportUpload",
+            "layout": null
+        }
+    },
+    "assets": {
+        "css": [
+            "dark-theme.css",
+            "blue-theme.css"
+        ],
+        "js": [
+            "module-importer.js"
+        ]
+    }
+}
