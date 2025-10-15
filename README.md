@@ -2,9 +2,11 @@
 
 A secure web-based interface for importing Zabbix modules packaged as `.tar.gz` or `.tgz` archives.
 
-![Zabbix Version](https://img.shields.io/badge/Zabbix-7.0+-blue)
+![Zabbix Version](https://img.shields.io/badge/Zabbix-7.0-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v3-green)
 ![PHP](https://img.shields.io/badge/PHP-8.0+-purple)
+![Release](https://img.shields.io/github/v/release/Monzphere/importmodule)
+![Downloads](https://img.shields.io/github/downloads/Monzphere/importmodule/total)
 
 ## Features
 
@@ -30,13 +32,13 @@ A secure web-based interface for importing Zabbix modules packaged as `.tar.gz` 
 
 1. Download the latest release:
 ```bash
-wget https://github.com/Monzphere/importmodule/releases/latest/download/module-importer.tar.gz
+wget https://github.com/Monzphere/importmodule/releases/latest/download/importmodule.tar.gz
 ```
 
 2. Extract to Zabbix modules directory:
 ```bash
 cd /usr/share/zabbix/modules/
-tar -xzf module-importer.tar.gz
+tar -xzf importmodule.tar.gz
 ```
 
 3. Set correct permissions:
@@ -54,7 +56,7 @@ chmod -R 755 /usr/share/zabbix/modules/importmodule
 
 ```bash
 cd /usr/share/zabbix/modules/
-git clone https://github.com/yourusername/zabbix-module-importer.git importmodule
+git clone https://github.com/Monzphere/importmodule.git importmodule
 chown -R www-data:www-data importmodule
 chmod -R 755 importmodule
 ```
@@ -256,19 +258,21 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/zabbix-module-importer/issues)
-- **Documentation**: [Wiki](https://github.com/yourusername/zabbix-module-importer/wiki)
+- **Issues**: [GitHub Issues](https://github.com/Monzphere/importmodule/issues)
+- **Documentation**: [Wiki](https://github.com/Monzphere/importmodule/wiki)
+- **Discussions**: [GitHub Discussions](https://github.com/Monzphere/importmodule/discussions)
 - **Zabbix Forum**: [Official Forum](https://www.zabbix.com/forum)
 
 ## Acknowledgments
 
-- Built for Zabbix 7.0+ module system
+- Built for Zabbix 7.0 module system
 - Follows Zabbix module development guidelines
 - Compatible with Zabbix coding standards
+- Developed by MonZphere
 
 ## Security
 
-If you discover a security vulnerability, please send an email to support@monzphere.com instead of using the issue tracker.
+If you discover a security vulnerability, please open a security advisory on GitHub or contact support@monzphere.com instead of using the public issue tracker.
 
 ---
 

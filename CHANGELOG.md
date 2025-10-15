@@ -5,10 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2025-01-15
+## [1.0.0] - 2025-01-15 (Zabbix 7.0)
 
 ### Added
-- Initial release of Zabbix Module Importer
+- Initial release of Zabbix Module Importer for Zabbix 7.0
 - Secure file upload functionality for `.tar.gz` and `.tgz` modules
 - Multiple validation layers (extension, MIME type, size, structure)
 - Automatic module extraction and installation
@@ -37,11 +37,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Permission management
 
 ### Technical Details
-- Compatible with Zabbix 7.0+
-- Requires PHP 8.0+
+- **Zabbix Version**: 7.0.x
+- **PHP Version**: 8.0+
+- **PHP Extensions**: PharData, JSON, FileInfo
 - Uses PharData for archive handling
 - JSON response for upload operations
 - Follows Zabbix module development standards
+
+### Compatibility
+- ✅ Zabbix 7.0.0
+- ✅ Zabbix 7.0.1
+- ✅ Zabbix 7.0.2
+- ✅ Zabbix 7.0.3
+- ✅ Zabbix 7.0.4
+- ✅ Zabbix 7.0.5+
 
 ---
 
@@ -50,6 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### [Unreleased]
 
 #### Planned Features
+- Zabbix 7.2 compatibility
 - Module update functionality
 - Backup before installation
 - Module dependency checking
@@ -63,4 +73,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 
 For detailed information about each release, visit:
-https://github.com/yourusername/zabbix-module-importer/releases
+https://github.com/Monzphere/importmodule/releases
