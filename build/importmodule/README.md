@@ -267,7 +267,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 - Built for Zabbix 7.0 module system
 - Follows Zabbix module development guidelines
-- Compatible with Zabbix coding standard
+- Compatible with Zabbix coding standards
 - Developed by MonZphere
 
 ## Security

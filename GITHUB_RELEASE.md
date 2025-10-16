@@ -2,7 +2,7 @@
 
 ## Creating Release v1.0.0 for Zabbix 7.0
 
-### Step 1: Build Release Package
+### Step 1: Build Release Packages
 
 ```bash
 cd /usr/share/zabbix/modules/importmodule

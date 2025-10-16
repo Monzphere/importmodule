@@ -64,7 +64,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Backup before installation
 - Module dependency checking
 - Rollback capability
-- Module information preview before installations
+- Module information preview before installation
 - Batch module import
 - Import history log
 - Module signature verification

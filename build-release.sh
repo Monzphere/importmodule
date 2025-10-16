@@ -32,7 +32,7 @@ cp LICENSE ${BUILD_DIR}/${PACKAGE_NAME}/
 cp CHANGELOG.md ${BUILD_DIR}/${PACKAGE_NAME}/
 cp CONTRIBUTING.md ${BUILD_DIR}/${PACKAGE_NAME}/
 cp RELEASE_NOTES.md ${BUILD_DIR}/${PACKAGE_NAME}/
-cp .gitignore ${BUILD_DIR}/${PACKAGE_NAME}/
+[ -f .gitignore ] && cp .gitignore ${BUILD_DIR}/${PACKAGE_NAME}/ || echo "  Note: .gitignore not found, skipping"
 
 # Set correct permissions
 echo "[3/5] Setting permissions..."
@@ -74,5 +74,5 @@ echo ""
 echo "To create a GitHub release:"
 echo "1. git tag -a v${VERSION} -m 'Release version ${VERSION}'"
 echo "2. git push origin v${VERSION}"
-echo "3. Upload ${BUILD_DIR}/${RELEASE_NAME}.tar.gz to GitHub release"
+echo "3. Upload ${BUILD_DIR}/${RELEASE_NAME}.tar.gz to GitHub releases"
 echo ""

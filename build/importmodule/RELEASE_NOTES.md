@@ -6,7 +6,7 @@
 
 ## 🎉 Initial Release
 
-This is the first stable release of Zabbix Module Importer, providing a secure web-based interface for importing Zabbix modules directly through the administration panels.
+This is the first stable release of Zabbix Module Importer, providing a secure web-based interface for importing Zabbix modules directly through the administration panel.
 
 ## ✨ Features
 
